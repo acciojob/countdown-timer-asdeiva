@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Countdown Timer</title>
-  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-   <div class="timer">
-      <input id="userInput" type="number" value = "10"/> 
-      <button>Start time</button>
-      <p id="countDown">Countdown Here</p>
-      <p id="endTime">End Time Here</p>
-   </div>
+  <h1>Countdown Timer</h1>
+  <input id="durationInput" type="number" placeholder="Enter duration in minutes" />
+  <button id="startButton">Start</button>
+  <p id="remainingTime"></p>
+  <p id="endTime"></p>
 
   <script src="scripts.js"></script>
 </body>
